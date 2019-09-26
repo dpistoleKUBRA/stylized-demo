@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #4d4d4d;
+    
+    * {
+        box-sizing: content-box;
+    }
+}
+
+// app scss
+.demo {
+    width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px 15px;
+
+    &__title {
+        color: blue;
+        text-align: center;
+    }
+
+    &__button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+// ux-library scss
+.primary-button {
+  background: blue;
+  color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  
+  &--disabled {
+    background: grey;
+  }
+}
+
+.secondary-button {
+  background: red;
+  color: white;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+
+  &--disabled {
+    background: grey;
+  }
+}
